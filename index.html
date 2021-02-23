@@ -4,19 +4,35 @@
     <title>Random game</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <h1>Random Number Game</h1>
-    <h3 class="generate">Generate a number between 0 and 10</h3>
+    <p class="result"></p>
+    <div class="h1">
+      <h1>Random Number Game</h1>
+    </div>
+    <div class="h3">
+      <h3 class="generate">Generate a number between 0 and 10</h3>
+    </div>
     <form class="form">
-      <input class="range" type="range" value="10" min="0" max="200" /><br />
-      <label>Guess the number:</label>
-      <input class="number" type="number" />
-      <input type="submit" value="play!" />
+      <input class="range" type="range" value="10" min="0" max="100" /><br />
+      <div class="input-container">
+        <div>
+          <div class="label-container">
+            <label>Guess the number:</label>
+          </div>
+          <div class="submit-container">
+            <input class="number" type="number" />
+            <input type="submit" value="play!" />
+          </div>
+        </div>
+      </div>
     </form>
     <p class="youChose"></p>
-    <p class="result"></p>
 
     <script src="script.js"></script>
   </body>

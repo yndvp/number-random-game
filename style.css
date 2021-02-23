@@ -1,3 +1,135 @@
+body {
+  background-color: #ffd4c2;
+  margin: 0;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+h1 {
+  font-family: "DotGothic16", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60px;
+  background-color: #ffffff9a;
+  padding: 15px 50px;
+  margin-bottom: 0px;
+}
+
+.h3 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+h3 {
+  margin-top: 30px;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 26px;
+  color: #ff0018;
+  background-color: #fdaa9d;
+  width: 940px;
+  padding: 2px 0;
+}
+
+form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.range {
+  -webkit-appearance: none;
+  width: 505px;
+  height: 25px;
+  border-radius: 30px;
+  background: #ffffff;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.range:hover {
+  opacity: 1;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #afe3ce;
+  cursor: pointer;
+}
+.range::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c7f0dc;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 70px;
+  font-size: 50px;
+  font-family: "DotGothic16", sans-serif;
+}
+.input-container > div {
+  width: 940px;
+  background-color: #d9fae0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 10px;
+}
+.submit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-left: 15px;
+}
 .number {
-    width: 4em;
+  width: 80px;
+  height: 60px;
+  border: none;
+  border-radius: 3px;
+  font-size: 25px;
+}
+input[type="submit"] {
+  margin-left: 36px;
+  width: 120px;
+  height: 80px;
+  font-size: 30px;
+  background-color: #000000b7;
+  cursor: pointer;
+  font-family: "DotGothic16", sans-serif;
+  border: 8px solid #fdaa9d;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.result {
+  display: none;
+  background-color: #d9ff00c5;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+  color: #000000;
+  font-size: 40px;
+  font-family: "DotGothic16", sans-serif;
+}
+.youChose {
+  display: none;
+  background-color: #000000c5;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "DotGothic16", sans-serif;
 }
